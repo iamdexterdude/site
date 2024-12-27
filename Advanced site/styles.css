@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+    background-color:#D4F6FF;
+}
+
+.name{
+    font-family: 'Dancing Script', cursive;
+    color: #48CFCB;
+    font-size: 4em;
+}
+
+.programmer{
+    color: #48CFCB;
+    font-size:x-large;
+}
+img[src="images/mountains.png"] {
+    position: absolute;
+    bottom: 0;
+    right: 13%;
+    width: 70%;
+    height: auto;
+}
+
+.top-container{
+    margin-top: 79px;
+    display: inline-block;
+    height: 100vh;
+}
+
+.middle-container {
+    height: 100vh; /* Make the middle container full viewport height */
+    display: flex; /* Center the image vertically and horizontally */
+    justify-content: center;
+    align-items: center;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 20%;
+    top: 10px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 25%;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 17rem;
+    height: 17rem;
+    margin-top: -600px;
+}
